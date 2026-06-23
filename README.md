@@ -1,5 +1,5 @@
-1. first run: 
+1. first run backend folder with: 
 uvicorn app.main:app --reload
 
-2. second run:
+2. second run frontend folder with:
 npm run dev
