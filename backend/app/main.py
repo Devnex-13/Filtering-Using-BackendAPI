@@ -27,7 +27,7 @@ from fastapi import Query
 @app.get("/products")
 def get_products(
     category: str = None,
-    limit: int = None,
+    limit: int = 20,
     db: Session = Depends(get_db)
 ):
     query = db.query(Product)
